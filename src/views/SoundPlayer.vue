@@ -10,6 +10,7 @@
     <audio ref="audioPlayer" @ended="playNextSound" controls></audio>
     <input type="range" min="-80" max="0" step="1" v-model="volume" @input="setVolume" />
     <h3>Volume: {{ volume }}</h3>
+    <h1>Test</h1>
   </div>
 </template>
 
